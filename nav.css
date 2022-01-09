@@ -1,0 +1,22 @@
+#menu{
+	width: 300px;
+	height: 300px;
+	position: relative;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50% , 50%);
+}
+.menu {
+	width: 150px;
+	height: 150px;
+	position: absolute;
+	background-image: url(image/menu.png);
+	background-size: 100% 100%;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50% , -50%);
+	transform-origin: -100px -100px;
+}
+.menu:hover {
+background-image: url(image/menu.gif);
+}

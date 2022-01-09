@@ -1,0 +1,211 @@
+html, body {
+	margin: 0;
+	font-family: Simplex
+}
+
+@font-face{
+	font-family: Simplex;
+  src: url(Simplex.ttf);
+}
+#container{
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.responsive {
+  width: 100%;
+  height: 100%;
+  line-height: 1px;
+}
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+.container::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+.container {
+-ms-overflow-style: none;
+scrollbar-width: none;
+}
+.box {
+	background-color:red;
+    width:auto;
+    margin:0px;
+    margin-bottom: -10px;
+    padding:0px;
+}
+.locked {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    pointer-events: none;
+     width: 100%;
+    height: auto;
+}
+.unity {
+  line-height: 1px
+}
+#think {
+  background-color: #ED1C24;
+}
+#do {
+  background-color: #2B3990;
+}
+#done {
+  background-color: #FCEE21;
+}
+@media screen and (min-width: 968px) {
+.con {
+  width: auto;
+  height: 1200px;
+  line-height: 1px;
+      pointer-events: visible;
+}
+.but {
+  position: relative;
+  background-image: url(about/but.png);
+  background-size: 100% 100%;
+  width: 45%;
+  height: 30%;
+  top: 500px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.but:hover {
+  background-image: url(about/brain.png);
+  background-size: 65% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.butdo {
+  position: relative;
+  background-image: url(about/butdo.png);
+  background-size: 100% 100%;
+  width: 45%;
+  height: 30%;
+  top: 600px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.butdo:hover {
+  background-image: url(about/work.png);
+  background-size: 400px 300px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.butdone {
+  position: relative;
+  background-image: url(about/butdone.png);
+  background-size: 100% 100%;
+  width: 45%;
+  height: 30%;
+  top: 600px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.butdone:hover {
+  background-image: url(about/complete.png);
+  background-size: 400px 400px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+}
+
+@media screen and (max-width: 968px) {
+.con {
+  width: auto;
+  height: 800px;
+  line-height: 1px;
+}
+.but {
+  position: relative;
+  background-image: url(about/but.png);
+  background-size: 100% 100%;
+  width: 450px;
+  height: 250px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.but:hover {
+  background-image: url(about/brain.png);
+  background-size: 65% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.butdo {
+  position: relative;
+  background-image: url(about/butdo.png);
+  background-size: 100% 100%;
+  width: 450px;
+  height: 250px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.butdo:hover {
+  background-image: url(about/work.png);
+  background-size: 70% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.butdone {
+  position: relative;
+  background-image: url(about/butdone.png);
+  background-size: 100% 100%;
+  width: 450px;
+  height: 250px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.butdone:hover {
+  background-image: url(about/complete.png);
+  background-size: 50% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+}
+#menu{
+  width: 300px;
+  height: 300px;
+  position: relative;
+  left: 50%;
+  top: 10px;
+  transform: translate(-50% , 0%);
+}
+.menu {
+  pointer-events: auto;
+      -webkit-user-select: auto;
+    -moz-user-select: auto;
+    user-select: auto;
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  background-image: url(image/menu.png);
+  background-size: 100% 100%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50% , -50%);
+  transform-origin: -100px -100px;
+}
+.menu:hover {
+background-image: url(image/menu.gif);
+}
+.containert{
+  background-color: #FFFFFF; 
+  -ms-overflow-style: none;
+scrollbar-width: none;
+}
+.containerd{
+  background-color: #FFFFFF; 
+  -ms-overflow-style: none;
+scrollbar-width: none;
+}
+.containerdo{
+  background-color: #FFFFFF;
+  -ms-overflow-style: none;
+scrollbar-width: none;
+}
